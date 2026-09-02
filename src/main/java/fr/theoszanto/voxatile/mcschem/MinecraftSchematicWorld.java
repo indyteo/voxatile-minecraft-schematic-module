@@ -1,4 +1,4 @@
-package fr.theoszanto.minalac.mcschem;
+package fr.theoszanto.voxatile.mcschem;
 
 import com.ignfab.minalac.generator.utils.FileHelpers;
 import com.ignfab.minalac.generator.utils.world2d.WorldBBox2d;
@@ -80,7 +80,7 @@ public class MinecraftSchematicWorld extends VoxelWorld {
 	private File generateSchemFileName() {
 		if (destination == null)
 			return null;
-		return new File(destination, Objects.requireNonNullElse(metadata.getWorldName(), "minalac")
+		return new File(destination, Objects.requireNonNullElse(metadata.getWorldName(), "voxatile")
 				.toLowerCase()
 				.replaceAll("[^a-z0-9]+", "_") + ".schem");
 	}

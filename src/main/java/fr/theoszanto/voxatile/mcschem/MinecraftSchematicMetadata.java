@@ -1,4 +1,4 @@
-package fr.theoszanto.minalac.mcschem;
+package fr.theoszanto.voxatile.mcschem;
 
 import com.ignfab.minalac.generator.world.VoxelWorldMetadata;
 
@@ -10,7 +10,7 @@ import java.util.List;
  * Metadata useful for the schematic.
  */
 public class MinecraftSchematicMetadata extends VoxelWorldMetadata {
-	private String author = "MinalacGenerator";
+	private String author = "Voxatile";
 	// Using generation start time is an acceptable approximation
 	// to allow us to easily provide a default value
 	private Instant date = Instant.now();

@@ -1,4 +1,4 @@
-package fr.theoszanto.minalac.mcschem;
+package fr.theoszanto.voxatile.mcschem;
 
 import com.ignfab.minalac.generator.parameters.OutputFormat;
 import com.ignfab.minalac.generator.parameters.ParamsParser;

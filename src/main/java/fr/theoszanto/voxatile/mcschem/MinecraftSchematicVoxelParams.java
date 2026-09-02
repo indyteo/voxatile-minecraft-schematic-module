@@ -1,4 +1,4 @@
-package fr.theoszanto.minalac.mcschem;
+package fr.theoszanto.voxatile.mcschem;
 
 import com.fasterxml.jackson.annotation.JsonSetter;
 import com.fasterxml.jackson.annotation.Nulls;

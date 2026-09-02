@@ -5,10 +5,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>fr.theoszanto</groupId>
-	<artifactId>minalac-minecraft-schematic-module</artifactId>
+	<artifactId>voxatile-minecraft-schematic-module</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<name>Minalac Minecraft Schematic Module</name>
-	<description>Minecraft schematic (Sponge Schematic version 3) module for Minalac Generator</description>
+	<name>Voxatile Minecraft Schematic Module</name>
+	<description>Minecraft schematic (Sponge Schematic version 3) module for Voxatile</description>
 
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
@@ -18,15 +18,15 @@
 
 	<repositories>
 		<repository>
-			<id>github-minalac</id>
-			<url>https://maven.pkg.github.com/ignfab/minalac-generator</url>
+			<id>github-voxatile</id>
+			<url>https://maven.pkg.github.com/ignfab/voxatile</url>
 		</repository>
 	</repositories>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.ignfab</groupId>
-			<artifactId>minalac-generator</artifactId>
+			<artifactId>voxatile</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>

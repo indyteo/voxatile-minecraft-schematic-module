@@ -1,4 +1,4 @@
-package fr.theoszanto.minalac.mcschem;
+package fr.theoszanto.voxatile.mcschem;
 
 import com.ignfab.minalac.generator.modules.minecraft.MinecraftBlockEntityVoxel;
 import com.ignfab.minalac.generator.modules.minecraft.MinecraftVoxel;
